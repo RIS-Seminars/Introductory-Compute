@@ -1,0 +1,49 @@
+13:29:32	 From  Kriti Bhattarai : How do we run our python scripts as a batch through the RIS cluster?
+13:30:15	 From  Elyn Fritz-Waters (she/her) : That is something that will be covered in another of the workshops.
+13:30:57	 From  Kriti Bhattarai : Great, can you please share when will that be?
+13:33:29	 From  Elyn Fritz-Waters (she/her) : The fourth session is about submitting jobs to RIS, covering the command line. That session is on May 1st.
+13:33:40	 From  Kriti Bhattarai : Reacted to "The fourth session i..." with 👍
+13:35:39	 From  Sherlyn Contreras : if it says my home directory isn't found what do i do?
+13:36:28	 From  Elyn Fritz-Waters (she/her) : It’s saying this in OOD?
+13:36:36	 From  Sherlyn Contreras : yes
+13:38:08	 From  Elyn Fritz-Waters (she/her) : It means you haven’t logged in via the command line to set up your account. You will need a terminal and will need to login with the following command. ssh wustlkey@compute1-client-1.ris.wustl.edu where wustlkey is replaced with your wustlkey
+13:38:34	 From  Sherlyn Contreras : Reacted to "It means you haven’t..." with 👍
+13:50:29	 From  Kriti Bhattarai : Usually, how long is the wait on the Nvidia GPUs?
+13:51:26	 From  yulia : What do different models GPU mean?  Is there specific jobs each model can perform?
+13:53:18	 From  Kriti Bhattarai : Replying to "Usually, how long is..."
+
+In the past, I have not been able to use it all and I have waited for more than 24 hours for it to use it for an hour.
+13:54:40	 From  Elyn Fritz-Waters (she/her) : Replying to "Usually, how long is..."
+
+It really depends on how busy the server is and the general queues have been very busy within the past 6 months. We have new hosts that we are working on getting added to the queues and some of those will go to the general-interactive queue to hopefully relieve some of the wait.
+13:56:20	 From  Elyn Fritz-Waters (she/her) : Models, in regards to GPUs, are the versions that Nvidia has put out. Generally, GPU code should run on any of them just fine. However, if you are doing something more complex that is dependent on the architecture of the GPU, then you may need to specify the GPU type(model) you want. RIS currently has V100, A40, and A100 GPUs.
+13:57:57	 From  John Budde : yes
+13:58:08	 From  Katelin Nickel : yes
+13:58:11	 From  Kate Wardenburg : yes
+13:58:12	 From  yulia : Is there option “any available”, or I need to specify the model?
+14:01:31	 From  Elyn Fritz-Waters (she/her) : If you don’t specify a model, it will use any of them
+14:02:05	 From  yulia : Reacted to "If you don’t specify..." with 👍
+14:03:29	 From  Jingqin Luo : When I submitted my interactive Rstudio session, can I give for "Mounts"  my home ris directory like "/home/wustlKey"?                                                While waiting for the session to start, I can't find the session listed under the "My Interactive Sessions".  Then it says it is starting, but disappeared.
+14:04:07	 From  iPhone : Jupyter forces the use of cuda 11.6, which limits the pytorch version to 1.13. How to use Jupyter with 11.7 cuda?
+14:05:43	 From  Elyn Fritz-Waters (she/her) : Our main CPUs have only coda 11.6. We are working on updating this to CUDA 12.4 but you have to use something that is compatible with the CUDA version that is on the servers
+14:06:27	 From  iPhone : Reacted to "Our main CPUs have o…" with ❤️
+14:07:21	 From  Elyn Fritz-Waters (she/her) : If your job is disappearing when it goes to run, there is most likely something that’s not set right with your storage allocation, please submit a ticket to our Service Desk if that is the case.
+14:08:43	 From  Maze Ndukum   to   Jingqin Luo(Direct Message) : are you still here?
+14:09:03	 From  Jingqin Luo : Replying to "If your job is disap..."
+
+I suspected that and that is why I asked can I provide to "Mounds" as "/home/wustlKEY" or it has to be "/storage1/fs1/wustlKey/Active/"
+14:09:05	 From  Maze Ndukum   to   Jingqin Luo(Direct Message) : do you want me to demonstrate this again?
+14:09:19	 From  Jingqin Luo : Replying to "If your job is disap..."
+
+neither worked anyway
+14:09:52	 From  Elyn Fritz-Waters (she/her) : Replying to "If your job is disap..."
+
+If you want to try it without a mount, you can leave it blank. That is the best way to test if it’s the mounts
+14:10:42	 From  Jingqin Luo : Replying to "If your job is disap..."
+
+ok, leaving it blank works
+14:11:19	 From  Jingqin Luo   to   Maze Ndukum(Direct Message) : I am good
+14:11:29	 From  Elyn Fritz-Waters (she/her) : Replying to "If your job is disap..."
+
+Ok, please submit a ticket then as it is most likely a setting with your storage allocation
+14:12:39	 From  Kate Wardenburg : Thank you, this session was very helpful!
