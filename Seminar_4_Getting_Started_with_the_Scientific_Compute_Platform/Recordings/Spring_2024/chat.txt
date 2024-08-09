@@ -1,0 +1,47 @@
+You 1:00 PM
+https://wustl.box.com/s/lf2f458g0vxuvm0104bhigdq0zuzr1kr
+
+Ryan Colvin  to  Everyone 1:31 PM
+does using the "-o" option mean the results *only* go to your specified location (meaning you no longer get the email)?
+
+Elyn Fritz-Waters (she/her)  to  Everyone 1:33 PM
+Yes. Only using the -o option means that the standard out log is sent to the location you give it and you don’t receive an email. However, you can also use the -N option to have it send you an email notification even if using the -o or -oo/-eo options.
+
+Wanzhou Liu  to  Everyone 1:46 PM
+Are there some problems with RIS for dealing with GPU jobs? I haven’t been able to submit GPU jobs for a week… What I applied for was NVIDIA A40.
+
+yulia  to  Everyone 1:48 PM
+How do we map storage to our drive?
+
+Ankan Bhadra  to  Everyone 1:49 PM
+I have Gromacs installed on my Linux. I want to do 500ns MD simulation of multimer complex? How can I use RIS compute to run such huge simulation?
+
+Elyn Fritz-Waters (she/her)  to  Everyone 1:49 PM
+There are multiple GPU hosts that are available. Currently there are some issues that we are working to resolve with the A40 hosts and so they are unavailable. If you can use another GPU type, I would use those currently until the A40 hosts are back up.
+
+Elyn Fritz-Waters (she/her)  to  Everyone 1:50 PM
+On our docs page: https://docs.ris.wustl.edu/ If you scroll down to the storage section, we have links for mounting storage on different OS’s
+
+Elyn Fritz-Waters (she/her)  to  Everyone 1:52 PM
+In regards to the Gromacs question, I would create a ticket or sign up for office hours as that is a more complex question and dependent on a lot of things.
+
+yulia  to  Everyone 1:52 PM
+yes
+
+Benjamin Gombash  to  Everyone 2:19 PM
+Thank you for hosting the session
+
+yulia  to  Everyone 2:19 PM
+Thank you
+
+Ankan Bhadra  to  Everyone 2:19 PM
+Thanks
+
+Wanzhou Liu  to  Everyone 2:19 PM
+Thank you!
+
+Ryan Colvin  to  Everyone 2:19 PM
+Thanks Maze and Elyn, good series of courses
+
+Mollie Webb 2:19 PM
+Thanks @Maze Ndukum !

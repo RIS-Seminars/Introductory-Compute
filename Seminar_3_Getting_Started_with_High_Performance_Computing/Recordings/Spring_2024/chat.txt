@@ -1,0 +1,20 @@
+13:01:48	 From  Maze Ndukum : https://wustl.box.com/s/zwdcyfxzrujt8qpltdlkd6ylciei1eoz
+14:04:56	 From  Kate Wardenburg : yes
+14:04:58	 From  Ryan Colvin : yes
+14:05:00	 From  Ningying Wu : yes
+14:05:10	 From  Ryan Colvin : so far...
+14:05:11	 From  Kate Wardenburg : They are working!
+14:26:36	 From  angellhe : Can we get the record to re-do some activities?
+14:27:18	 From  yulia : I have a program (IVG) on my computer, but the files that I want to use for this program,  are in my storage. Is there way that allows to run the files from storage on my desktop without copying the files (that are very big) to my local computer?
+14:27:43	 From  angellhe : Thank you!
+14:28:25	 From  angellhe : I am very interesting the Docker application. Do you have some deeper activities for it?
+14:28:26	 From  yulia : Unfortunately, my computer has no microphone
+14:28:51	 From  Elyn Fritz-Waters (she/her) : If you have storage mounted on your computer. You should be able to use the files located there in your local software. You should also be able to save files from the software to the mounted storage location.
+14:29:06	 From  yulia : Yes, and I want to run them on the program on my computer
+14:30:02	 From  yulia : Thank you
+14:30:35	 From  yulia : I can see them on my finder but not in my  application
+14:31:04	 From  Elyn Fritz-Waters (she/her) : If you cannot see them in your application, then it is most likely a setting within your application. What is the application?
+14:31:09	 From  Ryan Colvin : thank you!
+14:31:14	 From  Kate Wardenburg : Thank you!
+14:31:15	 From  Benjamin Gombash : Thank you for hosting
+14:31:25	 From  yulia : IVG
