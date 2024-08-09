@@ -1,0 +1,30 @@
+13:28:22	 From  Alnoor : What is the command to know the current directory
+13:29:19	 From  Elyn Fritz-Waters (she/her) : I believe that will be covered. But “pwd” will list the current directory you are in.
+13:29:34	 From  Alnoor : Reacted to "I believe that will ..." with 👍
+13:48:07	 From  Alnoor : Yes
+13:48:09	 From  Ningying Wu : yes
+13:48:09	 From  Ryan Colvin : yes
+13:48:10	 From  yulia : yes
+13:48:16	 From  Fengxian Wang : yes
+13:48:41	 From  Maze Ndukum :  17/04/2024   13:47.12   /home/mobaxterm 
+13:48:45	 From  Ryan Colvin : /home/mobaxterm
+13:48:46	 From  yulia : yulia@mellisas-mini ~ %
+13:48:51	 From  Alnoor : I have the same prompt
+13:52:22	 From  Fengxian Wang : Yes
+13:52:29	 From  yulia : yes
+13:53:58	 From  Betsy Grant : Sorry, I have to go.  Good information. thanks.
+13:57:55	 From  Alnoor : How do you go back to previous directory
+13:58:50	 From  Elyn Fritz-Waters (she/her) : You would have to cd back down into that directory with cd directoryname
+13:59:25	 From  Elyn Fritz-Waters (she/her) : But if you have the full path of the directory name, you can cd to that directory from any directory you’re in
+14:08:27	 From  yulia : How do I move file in different directory
+14:12:26	 From  Elyn Fritz-Waters (she/her) : You can use a command like the following
+
+mv /path/to/file.txt /path/to/directory/
+
+You put the path of the file to move first and then the path to the directory
+14:12:49	 From  yulia : Reacted to "You can use a comman..." with 👍
+14:18:25	 From  Alnoor : Does cat command only read csv file format? When I use this command for an excel file, it shows weird characters.
+14:21:21	 From  Elyn Fritz-Waters (she/her) : Cat works on human readable text files. A csv is just a comma delimited text file. I am not sure what an xsl(x) file is, but if it is a binary file, it won’t be considered what is human readable and will give weird characters when you use cat.
+14:21:40	 From  yulia : How can I search for two words
+14:22:17	 From  Elyn Fritz-Waters (she/her) : Do you want both words together? Or just both to appear at some point in the line?
+14:22:45	 From  yulia : Both  cases

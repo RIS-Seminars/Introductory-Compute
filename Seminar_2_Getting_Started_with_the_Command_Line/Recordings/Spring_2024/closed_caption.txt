@@ -1,0 +1,423 @@
+13:01:15 I'm going to turn on the recording.
+13:02:04 Okay, the number that's joining is now stable. I think we can move on and other people can join as we want in the workshop.
+13:02:17 So, This is the first workshop. In a series of 4 workshops. We're going to have the materials here in this box, down.
+13:02:32 Going to click on it. The reminder email okay let me Get out of here and just. So here are the workshop materials.
+13:02:44 They'll remind the email had this box. Think. We have slides. We have a small our script.
+13:02:54 Note we have Jupiter notebook that has Python code. The small spreadsheet data.
+13:03:03 And the Word document that has step. And by step demonstration activities.
+13:03:12 So I have this. In my box. I have box drive on my computer, but you can, if you want to.
+13:03:22 Run the demonstration activities you could download. The. The box folder onto your computer. And make sure that you have.
+13:03:34 Dideta file. And both our script and Egyptian book. Saved in your storage one.
+13:03:45 Location in our IS. But if you can't do the activities, you are welcome to stay and watch.
+13:03:55 Basically, this is just an intro. Just providing some basic information and introductions. And demonstrations.
+13:04:06 So feel free to just stay and watch. I speak.
+13:04:12 This night.
+13:04:16 And during the presentation, if you have questions, please type them in the chat box. We will do our best to answer your questions.
+13:04:24 But if we miss your question. We usually review the chat after the workshop. We will get that with you.
+13:04:32 And we can answer at some point after the auction.
+13:04:36 So this computing basics workshops are offered. Oh, fine. Data library in high persona and R IS research infrastructure services.
+13:04:47 So research infrastructure services. Provides the compute platform. And we are collaborating with. Or I asked to provide this basic education.
+13:05:00 So with me today on the call, it's Ellen Fritz Waters. And then we'll be reviewing the chat and answering questions.
+13:05:10 As the presentation goes along. And at some point. When we have like natural bricks, if it feels more comfortable to speak on your question.
+13:05:20 We can also do that. So I am Mazindu Kum. I serve as Senior's Apostentist at Becka Library.
+13:05:28 I focus on providing research. Service, the research computing services. Including computing basics workshops and.
+13:05:38 Are.
+13:05:43 So this is a series that we have this month of April. We're starting off. Introducing how you can use the open on-demand web.
+13:05:54 Interface for your computing. And then the subsequent 3 workshops. We'll demonstrate how you can.
+13:06:03 Jobs do computing on the IS. Compute. System using commands.
+13:06:12 So many people would think about using our IS if they have large data analysis needs. And so.
+13:06:24 That's why we have this provision here on campus.
+13:06:28 Manages and helps with any high performance computing. Meats that researchers have. So if it's large scale data analysis and did the management and this is a good place to go.
+13:06:49 We have the slide show. So the web page is right here. Click on it. Okay.
+13:07:01 Okay. So this is research infrastructure services page. We're going to be talking about scientific compute. And the data.
+13:07:10 Platform but They provide a variety of other services. Also like to Just highlight a news announcement that's pretty exciting that compute services will be complementary.
+13:07:27 How do we to, Piscay here, 2020. 25 so it's a great exciting news.
+13:07:37 I think that people can take advantage. Of learning about a resource and if they need to use it.
+13:07:44 This would be a good. Good time to pay too much for it.
+13:07:55 Okay, so let's get back to the slides.
+13:08:02 Okay, so here is the announcement that I Just thought D and so I added it to the slides this morning.
+13:08:12 So why would anyone consider to use a compute cluster? So. In a situation where your personal computer isn't working suitably for your large data analysis.
+13:08:24 You may think about how do I get this system that has more resources than my local computer. So if you in a situation where you have multiple or you several files that you need.
+13:08:40 To process and automate the processing of those files. Okay, plus that would be a good option for that.
+13:08:47 If you need to speed up task. Or you need to do several rounds of testing. And processes.
+13:08:59 Compute plus that is a great option for that.
+13:09:03 So like I mentioned before, we will speak about storage and compute services, however RS provides. Variety of other services.
+13:09:13 Today we will just talk about acute and storage because the way the system is. Set off.
+13:09:24 Costa, you need to have a storage. Account to be able to use. Because
+13:09:34 And it's a great it together.
+13:09:37 So. You can request for a compute. Count. Using this link here.
+13:09:50 You can if you just have storage needs you can request just for storage for example you just need to store a large.
+13:09:58 Data files. You can just get storage but if you need to requests, book storage and computer.
+13:10:10 Alright, as provides a lot of helpful information in terms of documents for how to use the system and how to access resources.
+13:10:22 So there is, there are knowledge based. This knowledge based platform that you can quickly get help from there by searching.
+13:10:31 Topics in their manual. The, is quite dense and very detailed in explaining. How to do things on the system.
+13:10:42 They also provide workshops and training events like these. And much more.
+13:10:50 So. When we talk about high performance computing. You can also think about it also called. Putting.
+13:11:03 Computing that uses a whole lot more.
+13:11:09 That provides more resources than your local laptop can provide in terms of speed of processing pain. Handling complex problems.
+13:11:23 But the idea is you will need to have your own personal laptop or your local machine if it's if it's a you know your computer and in the lab You need to have some application on there that will allow you to connect.
+13:11:41 Good high performance. And also referred to as the root.
+13:11:52 So when you connect, you will be connected to what's called a Login node and from then you can also meet jobs.
+13:12:04 For execution, for the compute. And you can do that using commands or using the web-based interface like Open.
+13:12:13 So this is just a schematic to give a visual. This is really simplified, is more complex than this.
+13:12:21 But just showing you the main components of a compute costa like RS. There are other computers.
+13:12:35 But RS is the one that's open to all researchers at the university. So the other ones that are available in compost may be.
+13:12:43 Focused on specific. A research need for specific. So that the main components of any computer customer would be the login nodes.
+13:12:55 We also have the compute nodes. And some for storage infrastructure and all of those are tied together by high speed internet.
+13:13:06 So a user with on their own personal computer would need. To be able to log in. Onto the locking notes and then So many jobs to compute nodes for execution.
+13:13:20 When the jobs are done, you can have output. Which you can. Transfer.
+13:13:29 Some other components that are not. In this figure. You need what's called a job scheduler.
+13:13:40 Yeah, different kinds of jobs scheduler, but RS uses what is called
+13:13:47 LSF, which is IBM Spectrum load sharing facility. This, job scheduler software basically.
+13:13:57 Is what will manage jobs. We decide. Way to submit which jobs. And it's very important.
+13:14:06 And component of the cluster.
+13:14:09 Something else that the RS compute course I uses is container technology. To the variety of containers that can be used when our IS uses Docker containers.
+13:14:24 Some other clusters, tubes use containers. Before we use
+13:14:29 So the DACA containers. And LSF. Tells our system how to process your job.
+13:14:37 What? What to do in the output. Who modify their output. And you can submit the job.
+13:14:46 Using commands or using a web base. That's for a web based option.
+13:14:56 So today we are going to talk about. And in the next 3 workshops will introduce how you Use commands, the various tools you'll need.
+13:15:06 And end up describing. To. So let's talk about open on demand.
+13:15:16 So with open and demand. It's in, user interface option for.
+13:15:24 So basically you just need a web browser. And you can now connect to our IS compute resources and be able to.
+13:15:33 Access. Like software on there for your diagnosis. So the open on demand website itself is, is here.
+13:15:44 If you visit that page, you can learn more about Oprah. And behind it and access the support documentation.
+13:15:57 Join the discourse.
+13:16:02 To start off with those who are interested in using open on demand on RIs compute. You want to think of the scenario way.
+13:16:14 Probably need some software, And that software that's already on the or you're large university analysis.
+13:16:25 For example, this is a great place to start. You will need to connect to the RIS computer.
+13:16:34 On the command line at least once. And once you've connected one time. You will be able to use.
+13:16:44 Interface. And going forward. So we'll show all the mustard during the demonstration.
+13:16:53 So this is what the, on the. Looks like, but I just like to briefly describe. What it means by you connect.
+13:17:04 On the common line at least once before. Access this web-based platform.
+13:17:12 So as they use them. On your local computer, you would need to have software that can enable you to securely connect to the remote computer.
+13:17:24 Yeah.
+13:17:25 Google. Resource. The secure way to connect is uses secure. So.
+13:17:38 And So machines like. Computers and Linux computers.
+13:17:47 In we really built in. Online terminal. That has secure shell protocol. Already installed.
+13:17:59 If you're on Windows. May be able to if you have a newer version of Windows you have.
+13:18:07 Thank you. Provide that to provide that.
+13:18:14 If you don't like to use the Windows, shell, there are other options for Windows you can install a Windows subsystem.
+13:18:24 Looks or you can also install. By external party, these are all options for. Having that secure shell.
+13:18:34 On your Windows machine. Basically what this is, is Just a way for you to have the username and a password.
+13:18:44 Securely connect you. Your team cluster. Once you request an account from RIS, a compute account, will be provided with.
+13:18:59 The username. And your username is your also key. So the basic command to use.
+13:19:09 Secure shell protocol who's this way. Space, your username. The machine that you are connecting to.
+13:19:19 Machine is the cluster that you are connecting to. So to connect to our IS. We would see SSH space you're also key at Compute one that's client dash one.
+13:19:36 So this will be connecting us to. Compute one, plan one. And the password is your also key password.
+13:19:47 If you are off campus, you will need to be. To use a VPN.
+13:19:55 So this is how I would. Alright, so SSH space on my muscle key.
+13:20:05 Computer.
+13:20:08 And also the EDU is is quite longer when you use the system. Multiple times. In receive this for you so you can just use your up error to bring it up.
+13:20:20 Or you get used to typing. Your SSH one. But if you are going to use an open demand, you just need to do this once.
+13:20:30 So when you type your command, I'm showing it here how it looks on the terminal. We know.
+13:20:38 You will ask for your password, you can type in your password, you will not see any actual characters showing that you just keep typing because it's it would this is still being input that and when you finish typing your passport and hit enter.
+13:20:57 Everything's correct. You will see a welcome message similar to this one. And this is the message that was there when I dropped in, 2021.
+13:21:11 Check if the decision has changed.
+13:21:14 So now you are connected to. Compute one, plan one. And so you can see like prompt here.
+13:21:25 Tells me that I'm connected to that machine.
+13:21:31 So here are just some. Other things to think about components. Your life easier as you keep working. So, keep in mind that we already mentioned that.
+13:21:43 Compute integrates with starvation. So. A way to access your storage or dynamically is you could.
+13:21:54 Your storage as a local drive on your computer so this information on how you can do that if you have a.
+13:22:03 Windows. L and information about how you can transfer files. 2 your storage allocation so that you
+13:22:15 Make it visible to your job when it's time to submit your job.
+13:22:24 For running jobs and using your storage. You get assigned. Good names. So when you request an account usually is a PI, Open Lap.
+13:22:37 That's requesting for their group. With will now be assigned. So.
+13:22:46 For example, showing here. My group is, I am Data Library, so I is assigned a good name for a storage to be.
+13:22:55 Storage that's better as library touches. And I will compute our good name is similar. So when it comes time to making your storage allocation visible to your job.
+13:23:09 Here is the format in. To type out to. Include the location that the job needs to see. The files from.
+13:23:21 So it starts with your. Slash storage one slash fs one is the nomenclature of the different.
+13:23:32 The full path names. You study storage one slash FS one slash, then you provide your, storage.
+13:23:42 A location. Slash active. Pull on and then you repeat.
+13:23:50 So we will see this once we. Set up the job.
+13:23:58 Okay, I wanted to talk a little bit about the job scheduler. Just to, highlight that.
+13:24:07 The Hyperformance community infrastructure is a shirt, it's a shared resource, you can think about it like.
+13:24:15 In large equipment. That's shared by the lab or by the department. So we want to be mindful.
+13:24:25 When we are using. So the job scheduler helps. We, managing those managing jobs that are submitted.
+13:24:35 And the resources for running those jobs and monitoring the progress, progress of the jobs. So for us users.
+13:24:42 We would use the. Plants for submitting their jobs and providing the resources that our jobs need. And this is an area that staff can be very helpful.
+13:24:57 Wait for people who are just starting out who are not sure. And about resources and how.
+13:25:06 Allocate those resources for their jobs. But we have to be mindful since it's a shared service we want to be.
+13:25:15 My floor.
+13:25:18 Using or. You know, providing the resources for it.
+13:25:26 For our jobs.
+13:25:29 So whatever we the users would include in our commands is what you know, help will help the job scheduler to decide which nodes to run our jobs on behind the job.
+13:25:41 To be balancing. Okay. For everyone.
+13:25:49 The other thing to keep in mind is the Docker container so With RIS, it uses Docker containers.
+13:25:58 These are basically them as applications. So includes code, software, any dependencies for that. Software and system.
+13:26:09 So, as really. Currently hosting several containers. That people can use.
+13:26:29 So that if you don't find what you need on there they can help you create Yours, the idea with the Docker.
+13:26:40 Containers, product, images, is you the user, you will have more. Controlled over.
+13:26:49 Work in. Producers so whatever container you create for example for your process. If it's a process that.
+13:26:59 You need to apply to multiple data sets. You already have your container and you can trust me. Reuse it.
+13:27:07 There are also available images. In Dr. Hub, which is the public repository that people can.
+13:27:19 Use or start from people that to create. One that's specific for their needs. But like I'm showing here, IS has several options.
+13:27:31 Look at and start from. They have the, application containers these have been Just did not the time.
+13:27:42 Of testing they worked so You can either use this or you can use Alright, as images as a base.
+13:27:51 Creating your own, your own images.
+13:27:57 Okay, so those basic intro concepts now can help us to
+13:28:03 To open and demand and actually See how we can. Run jobs on there. But before I move forward, because the next set of slides is just going to be demonstrating.
+13:28:15 Yeah, the open and demand platform and the menus. I just want to take a brief pause and see if there any questions.
+13:28:24 Then need to be addressed.
+13:28:46 I don't see any questions in the chat. Yeah.
+13:28:51 I have a question. When you work with the
+13:28:53 I mean your questions or unmute. And speak if it's easier for you.
+13:29:03 Okay, so here is a URL that will connect you to.
+13:29:11 On the. US. Computer does resources.
+13:29:18 This is what the platform looks like and you can.
+13:29:23 Here I'm just letting you know that Safari on Mac.
+13:29:30 Work. Well, a demand doesn't work for Safari, so you would need
+13:29:35 A different browser like Chrome or Firefox.
+13:29:41 On open on demand. You can.
+13:29:47 View the files in your compute environment so it defaults to your home. 3 you can see.
+13:29:57 Details of the files. Like the
+13:30:05 Permissions on the file, you know, if you click here, show. Well, now, wood, you can see the permissions for the file in accessed terminal in cocoa and demand.
+13:30:17 Okay
+13:30:24 We can delete files. Also on there
+13:30:29 If we look at the jobs menu the active. Just shows us. The active jobs that are currently. Good morning.
+13:30:44 And there's another option there.
+13:30:49 On the the jobs called job composer this is where you can create and launch badge jobs similar to using.
+13:31:01 A common line.
+13:31:04 Okay, now the option. Or clusters. This is where you can launch a command line. As well and have the terminal.
+13:31:19 Access the computer resource system. That way. So if you if you are someone who like, oh, I like open demand.
+13:31:26 I will log on. Connect to it but still just use commands. You can do that as well.
+13:31:35 You can use that option.
+13:31:38 Okay, this, section, this menu interactive apps. I think this is like what we know.
+13:31:47 Focus our demonstrations today is this is where you can access software you can select the specific application on there from the dropdown menu maybe.
+13:32:00 Sands, Matlab. Japan notebook and You can. Configure it and set up so that it has accesses.
+13:32:11 Files and folders in your. Storage, location. And you can run your
+13:32:20 Our jobs do you test in our studio? Using the DETA in your Starship location. So we'll just demonstrate how you can.
+13:32:29 Okay.
+13:32:34 And the last menu there is your directive sessions, it will just show you what sessions.
+13:32:46 Okay, so the rest of the slides basically just explaining what we've just talked about concerning the individual.
+13:32:54 Menus on your open on demand. And so at this time I will.
+13:33:01 Post here and we can transition to the open and demand platform itself. And just demonstrate a few of these things that we've talked about.
+13:33:15 So. We have that you are.
+13:33:23 On the slide.
+13:33:32 Right here. And the one way that I I have been going there is I would just go to. And if you are right there.
+13:33:47 On the. Support the user guide and documentation. You can click on that.
+13:33:59 Here's where you find the knowledge base. Atticus, a user.
+13:34:04 Things to help you. So if I click on user manual, this is the user manual and you can you can search for different things.
+13:34:15 To your interest but it starts off by giving you way to start. So, open on demand is Right here.
+13:34:25 And. Having a real nice description on what to do so if we start by pointing our browser in the And this is.
+13:34:37 The platform. Pretty, clean and open. This is a file stop where you can see a whole.
+13:34:47 And the, TREATES at the file that I in my Okay.
+13:34:58 Okay. Notice that my file tab open in a separate window. I still have my dashboard. Here and I can keep.
+13:35:09 Exploring the different menus So like I mentioned the active jobs. If I did have some active jobs, it will show on here.
+13:35:21 If I wanted to.
+13:35:25 Of course, you know, run. Jobs. Do that using the job composer. Here is an example.
+13:35:35 Script. Or how to start off. You can have it a template, we can start from scratch.
+13:35:45 So, that's the.
+13:35:49 Yeah, if we look at the cluster section, this is where you can access the terminal. So see it takes me straight here and ask for the password.
+13:36:01 So if I enter my Wso key password. That is some typing, nothing is registering, but it's being Okay.
+13:36:12 And so I'm able to log in.
+13:36:18 So if you prefer to. Access the terminal. Good man, into that and run your.
+13:36:27 Jobs using command So for example, Maybe I'll just run some, let's say if I run the groups command, this will.
+13:36:37 Is play what groups I belong to so I can see my . And my computer
+13:36:48 Okay, Yeah.
+13:36:56 If I run maybe B queues. And this would show me the queues. Good. Ones that are active how many jobs are running how many are pending how many of you spend it so You see, you can actually access a terminal.
+13:37:19 Right.
+13:37:25 Now, the interactive. Apps. This is where you can now choose. Specific software.
+13:37:35 Let's see. Our studio, for example. And you can.
+13:37:42 Access our studio. Platform. Works would demonstrate that.
+13:37:52 So if we go back to this slides.
+13:37:58 No, no, few things to Show about
+13:38:04 So for our studio, for example.
+13:38:09 When you have chosen your application. You will not need to. You know configure your storage mounts So.
+13:38:29 Provide that. Mount following the format that we discussed previously in the slides. I'm showing you here.
+13:38:39 Where you start with a storage one. If it's 1, they can, you know, this would be your, Good name.
+13:38:50 So active is the active storage because there's also a KYBA storage, but when you're running jobs, your data needs to be in the storage and I want to access the that's in a folder called And then I have my phone and
+13:39:07 So that's the format. And. Here we can provide the version of ARM that we need.
+13:39:18 There's a dropdown menu to see which versions are available. You also have this RNs that are to do.
+13:39:27 Docker image that you can see what image. S. For this open.
+13:39:35 So this next set of slides just describes. Fields in that form that you complete. you're, open on demand job.
+13:39:48 Accessing our studio. So we've talked about you. A group name and entire you mount so that your storage allocation .
+13:40:01 And We also have This group name in upon demand will appear as your
+13:40:10 Idea that you also key. S.
+13:40:18 And the the additional fields. That are there. You can mention what Q.
+13:40:29 How much memory you need. In the of us for your job. Okay, I'm just mentioning that.
+13:40:36 If you are using the general Q.
+13:40:40 Your job can't last more than 28 days you will be killed If you are using the general interactive queue.
+13:40:48 The limit is 24 h. So if the job doesn't run within 24 h, he would get killed.
+13:40:56 And that if you know how much GPUs you'd need and processors, you can also enter in the field.
+13:41:04 Requesting.
+13:41:07 So this is one of, field cell phone would look like that's what mine looked like. And you can run it.
+13:41:17 Q initially and give you a message to wait patiently because the job is in the queue.
+13:41:26 And the LSF will manage it. Then it will tell you when it starts. And see with patiently because it takes a few minutes.
+13:41:36 And once you do a job and the.
+13:41:43 It's ready you would you know you would say you can now connect to us to do server So you can click on connect to us to your server.
+13:41:53 And. You'll be taking to your Earth Studio platform. So if you are familiar with our studio, this is and integrated development environmental running R.
+13:42:10 So our is a programming language for Putin, statistical computing and graphene. It's very popular many people using.
+13:42:21 And so they like to use. Our studio because it's a nice platform that has 4 windows, you can navigate.
+13:42:30 Many features to make your life easier. So once you have your our studio platform open the default location that you see is your home.
+13:42:43 You are IS, home directory. But you don't want to.
+13:42:50 Work from your home directory. So. Yeah, Do work there, however.
+13:42:58 Want to save all your data, your code. In your storage allocation because that's what gets back to the home.
+13:43:10 Doesn't get So if you are now in your default location, which is your home directory. To access the data in your storage allocation.
+13:43:24 You can click on these 3 dots that are on the right over here. So I'm showing you where the 3 dots are.
+13:43:35 And you ask you which folder you want to go to. Change from the the full path to your storage.
+13:43:47 So in the storage one, slash FS one. And you provide your, good name.
+13:43:52 So, That's how I will access. Data in my storage one
+13:44:02 That. Once I do that, now you can see I am. Accessing files and for us in and I can open a script that's in there in here.
+13:44:17 In my our studio. Code editor window and I can run months here I can use a whole new
+13:44:28 Swift or just do whatever things that I do. Hours to do. However, I have now access to our resources.
+13:44:39 A more computing power, more memory. And I can do. Data sets because I'm connected to.
+13:44:47 To our IS. Okay, that's demonstrating for you in our studio. And we can do the same for Jupiter.
+13:44:56 Notebook. This will, Jupiter notebook. Is. Platforms for running Python code.
+13:45:06 You can choose that application in our studio in
+13:45:13 Open on demand and fill out the form.
+13:45:20 You are connected to Jupiter. Click on it to also default to your home directory.
+13:45:29 And you can access if you have a notebook. There. But if you want to access books that are in your storage or You want to open a new notebook but make sure that work so that output in the notebook is saved in your storage allocation.
+13:45:50 You will also need to provide your
+13:45:55 You also need to mount your storage location.
+13:45:59 By completing this custom Jubilee notebook. Directory which I'm going to show you when we transition.
+13:46:07 When I go back to the demonstration. Okay.
+13:46:16 This is what a new or Jupiter notebook will look like. No caught on in yet, but you've already have.
+13:46:25 Created or somebody else shared with you.
+13:46:29 Save it in your storage. Location and Monday code.
+13:46:36 So the one we have talking, what we are talking about in this workshop. It's really.
+13:46:43 Like intro and really general. But your specific needs might. More complicated and so just varied ways.
+13:46:55 Needs from users and so it's best to speak with our staff if you're just getting started.
+13:47:01 So they have office hours that you can schedule to speak and you don't have to schedule and speak with them if.
+13:47:10 If. You only because you have an account even if you do not have an RS account if you just want to learn more about the service.
+13:47:19 And how it can support your research. Feel free to schedule. Time in office hours, but if you are currently using.
+13:47:29 Is and you. Questions, we need some help. Prefer to put a ticket in you can do now using the service service desk.
+13:47:39 So let me go back to the. Google on demand platform and let's continue with the. And see how we can use our studio.
+13:47:49 And
+13:47:58 So this is with the interactive apps. And I'm like, daddy sessions if I click on it.
+13:48:07 If I had any sessions you would display here right now I don't have any So, let me go back to my studio.
+13:48:15 Here I have my mount entered. When you enter it once, it will save it. So if. You are a member of multiple user groups.
+13:48:28 So you see a dropdown menu here. So I'm in member of all these groups. You can, and know, multiple groups you'll see here.
+13:48:37 And, You can choose. The group. Because you need your group name for your job to be able to run.
+13:48:52 Skip this but this is the version of our studio You can choose one, so I pick the phone.
+13:48:59 Point 3 vision. And.
+13:49:05 Entering here, I'm going to use the general queue.
+13:49:10 I don't have to enter any S.
+13:49:16 I'm just going to do a small amount of memory because Hi, running a huge job and just choose 1 h.
+13:49:26 That's my. The amount of time. And notice some notes included.
+13:49:34 Next to the boxes to to guide you and help you as you make your preferences. I don't need any GPUs, so I have it at 0.
+13:49:45 If you are familiar with GPUs and what you need. Yeah, personal. To be.
+13:49:54 GPU minor types that you need to choose from.
+13:49:58 And down here you can indicate a number of processors.
+13:50:03 So I'm not good, I'm not running any M. Key i codes so I'm just going to ignore that.
+13:50:11 And I'm choosing a large font font size. On my show. If I do go to the shell.
+13:50:21 So I'm going to lunch this job. To open ours to do. So, for example, on demand.
+13:50:33 The good thing is you can have this session going and if you need it to to another application you can go ahead so I can start with the.
+13:50:43 Notebook 1 2. And the form is similar. I have my amount.
+13:50:51 Okay. Everything, a user group for running job. Using the JIRA. I just use default.
+13:51:04 Let's start with this. And since I want this, Japan notebook to open.
+13:51:14 Access to my storage I already have it customized down so I have my storage, a location.
+13:51:24 In. This box. And I will click lunch.
+13:51:32 So. Was just going to wait patiently. For my.
+13:51:39 Sessions to complete. I will if I click my interactive sessions I will see the 2 sessions and a half going on.
+13:51:49 To do and to be done.
+13:52:07 And all this is
+13:52:12 Just outlined. Word document, demo document. Just showing you how Start off like logging in ones and accessing.
+13:52:28 To the
+13:52:39 Thank you.
+13:52:42 So that's what the work.
+13:52:50 Okay, so in terms of connecting using the terminal once. I apologize that we kind of skip that.
+13:53:01 That to
+13:53:13 To do that. So. Because I had already connected. Once I'm able to just access open hand.
+13:53:25 But for somebody who is just getting started, so I'm on a Windows. Thank you.
+13:53:37 I'm going to use Powershell. So you can use partial and run the SSH.
+13:53:45 Come on to. So if you are on a Mac. The terminal is one of your applications that you can launch.
+13:54:01 Like you launch any other application. On your computer. And now that I am in Oh, Shell, let me make it begin.
+13:54:12 See, this is your first time and you just got your account information from.
+13:54:19 Okay. And also keep us with. You need the terminal. So on Windows, like I mentioned, you can use Windows, I also have
+13:54:34 Machine so I look up our show
+13:54:41 Locations here and then kicked it. There it is. If.
+13:54:49 You have your terminal, you can go ahead and tag your SSH command. So for me, H, space and my Also key.
+13:55:01 Then the machine that I'm pointing to, I want to connect compute one.
+13:55:08 Thus client.
+13:55:15 One
+13:55:22 So that's my SSH command.
+13:55:28 Because I have connected before, it's asking me to.
+13:55:34 Oh, it can't be. Oh, hold on.
+13:55:43 Let me show you once you're connecting yes
+13:55:48 Asking for my password so My password.
+13:56:01 And I'm connected. So. This is the only step you need to do. On to be able to access upon on demand and you have to do it just once.
+13:56:12 So after the first Time. After this is done. I'm not able to access open on demand using the URL.
+13:56:37 Yes, you are out from here.
+13:56:40 And finish. The next day or next time you close everything you come back you do not need your terminal anymore you can just go straight to your
+13:56:53 URL click on it. And when you log in I think you would just do the education if you are off campus.
+13:57:04 Yeah, you.
+13:57:09 Yeah.
+13:57:15 My, sessions are going to start soon.
+13:57:23 What questions do people have about?
+13:57:27 They're connecting, Okay.
+13:57:44 Is anybody following along with the demonstration if you are can you just say yes in the chat
+13:57:53 Running it trying to navigate the menus as well.
+13:58:00 Oh, great. Thanks for letting me know. Appreciate your response.
+13:58:06 Management. Okay, looks like. My sessions are ready. I have,
+13:58:15 I can't hear to connect to our studio server and want to connect to. So let's do the ours to do first.
+13:58:27 So here it takes me to my these files.
+13:58:34 And I want to access my storage, a location So I'll click on the 3 dots over here.
+13:58:44 Invite this, dialbox this window. Me to type in the path to the folder that I'm interested in.
+13:58:52 So I start off with my storage. One, plus one.
+13:59:11 So, Now I'm connected to storage one. And the example. There are example script is what I want to access.
+13:59:31 So I'm coming back to my
+13:59:35 This is it. To your Sturgeon location, access it, access a different script. Or something else that you have on there for our there it is.
+13:59:48 If you don't have this. If you just want to. Oakland and you.
+13:59:57 Script. We're going to run our code. Let's see.
+14:00:07 There's some simple arithmetic.
+14:00:12 Whatever you want to do.
+14:00:16 But this Just demonstrating how you can use. On a demand if you already have a script or if you just want directly for testing purposes and once you are happy you can the script.
+14:00:33 Justin. Okay, now let's look at first studio. Braza here I have multiple windows but now I prefer to the window that's my interactive Absolutely.
+14:00:55 So because I did. The customization so that
+14:01:04 To my storage and location. That's what happened. And I have. The Python example.
+14:01:11 Right there.
+14:01:15 I don't code. That's what I need to do. Or if you need to open a new
+14:01:25 New over here.
+14:01:30 Whatever something else you need to, into it knowing that you can. Access resources from IS.
+14:01:55 Okay, so your session will stay running until you You delete it.
+14:02:12 Let's see, I don't need. Our studio anymore. I've finished.
+14:02:19 What I need to do.
+14:02:22 Close it.
+14:02:27 Clothes and your other windows. That I need to delay. My session to end if I don't, it.
+14:02:36 Since I gave it an hour. After 1 h even been killed. So just keep in mind. If you need.
+14:02:47 Time or less time just be mindful also that it's a shared resource.
+14:02:55 Going to delete that.
+14:03:00 The same for my Jupiter.
+14:03:09 So I just wanted to demonstrate how you can. Access. Software, but not actually, we, we don't have to be running the code.
+14:03:20 Because, this other software that you can. Right.
+14:03:27 Power IS, computer using open.
+14:03:31 In there's detailed documentation on how to do it. And also, stuff I always very helpful if you need to create your own daughter image if you need to be running.
+14:03:45 Multiple languages.
+14:03:50 Digging also help you create another image for that.
+14:04:01 Okay. So we've seen how you came.
+14:04:07 Access to software like our studio and Japan notebook. It also access the terminal using.
+14:04:16 Go on demand.
+14:04:21 So basically seen. We've gone through the workshop. Pretty quickly. No.
+14:04:31 Many questions to speak out. But feel free to speak your question at this time. If it's if it's easier for you.
+14:04:39 I see. Questions in the chat. Oh and Ellen has been answering the question so thank you so much Alan.
+14:04:49 Good asking the questions. Please, everyone, feel free to speak out your questions at this time. Because we are at the end of our demonstrations.
+14:05:04 Plan to show today.
+14:05:08 We really appreciate you spending this time with us and thank you. We will have the recording. Email to do who registered for the workshop.
+14:05:19 And eventually we will have it. On web pages . Events, past workshops and current data libraries, research computing page.
+14:06:36 So, please, if we missed your question, please feel free to unmute and speak.
+14:06:43 How do you question at this time? And save for you.
+14:06:51 Also, I like to mention that when we send out the recording you will include the feedback, and a form, a very brief projects, feedback survey.
+14:07:03 We always like to hear what you think about the workshop. This share so useful feedback with us so that we can improve our offerings.
+14:07:16 These workshops.
+14:07:21 The goal is to help people get. Basic information but if you already are experienced you're welcome and We enjoy sharing.
+14:07:32 In here together. We're learning from each other. So if this is too simple for you.
+14:07:40 We are glad you stayed, but please mention in the feedback so we can think of ways to everybody's needs.
+14:07:52 Thank you.
+14:08:25 It looks like somebody.
+14:08:31 Meeting.
+14:09:15 Okay, so your be the that starts with storage one . S. One, ending it's not your WASP.
+14:09:28 It's your huge
+14:09:32 You're just, let me show you.
+14:09:36 Okay. My group name is . That's library dash test. So When you requested for an account depending on the lambda you were in, you were assigned.
+14:09:52 Compute group and storage group. So let's see.
+14:10:00 Yes. So.
+14:10:12 Here is the information that will go.
+14:10:18 Not so key that in the mount the amount doesn't take it's not yours okay it's your
+14:10:26 So for me it's Becka Dash Library dash test. So your group name.
+14:10:35 Something associated with your lab, I think.
+14:10:39 That's.
+14:11:09 Great, I'm glad it worked.
+14:13:26 People are continuing to play around, which is good.
+14:13:31 Keep doing that and asking your questions. Okay, the chat. We just wait a few more minutes. Please speak on your question if that's easier for you.
+14:13:46 Thank you for spending this time with us. I appreciate.
